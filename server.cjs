@@ -18,7 +18,7 @@ connecttodb(function(error){
         console.log('heyy')
         console.log(error)
     }else{
-        const port = process.env.PORT || 8000
+        const port = process.env.PORT || 7000
         app.listen(port)
         db = getdb()
         console.log('listening on port ${port}...')
